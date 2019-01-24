@@ -24,6 +24,10 @@ body {
 	vertical-align: middle;
 	background-color: #f5f5f5;
 }
+td a:hover, td a:focus, td a:active {
+      text-decoration: none;
+      color: inherit;
+ }
 .main-content {
 	margin: auto;
   	width: 80%;
