@@ -24,7 +24,7 @@ body {
 	vertical-align: middle;
 	background-color: #f5f5f5;
 }
-#content {
+.main-content {
 	margin: auto;
   	width: 80%;
 }
