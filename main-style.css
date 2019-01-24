@@ -11,8 +11,8 @@ body {
 #top-bar {
 	margin: auto;
 	width: 60%;
-	border-top: 1px solid #909090;
-	border-bottom: 1px solid #909090;
+	border-top: 1px solid rgb(220,220,220);
+	border-bottom: 1px solid rgb(220,220,220);
 }
 #bar-link1, #bar-link2, #bar-link3, #bar-link4, #bar-link5  {
 	height: 50px;
