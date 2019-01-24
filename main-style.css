@@ -4,15 +4,17 @@
 #top-bar {
 	margin: auto;
 	width: 60%;
+	height: 26px;
 }
 #top-bar-row {
 	border-top: 1px solid #909090;
 	border-bottom: 1px solid #909090;
 }
-#bar-link1, #bar-link2, #bar-link3, #bar-link4, #bar-link5,  {
-	
+#bar-link1, #bar-link2, #bar-link3, #bar-link4, #bar-link5  {
+	text-align: center;
+	vertical-align: middle;
 }
-#bar-link:hover {
+#bar-link1:hover, #bar-link2:hover, #bar-link3:hover, #bar-link4:hover, #bar-link5:hover {
 	text-align: center;
 	vertical-align: middle;
 	background-color: #f5f5f5;
