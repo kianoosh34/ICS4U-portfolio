@@ -10,7 +10,9 @@ var SCREEN_WIDTH = 640;
 var SCREEN_HEIGHT = 480;
 //---------------------------------------------------------------
 function setup() {
-  var canvas = createCanvas(windowWidth, windowHeight);
+  var wid = document.getElementById('main-content').offsetWidth;
+  var hig = document.getElementById('main-content').offsetHeight;
+  var canvas = createCanvas(wid, hig);
   canvas.parent('main-content');
   ship = new Ship();
   for(var i = 0; i < TOTAL_ALIENS; i++){ 
@@ -19,7 +21,9 @@ function setup() {
 }
 //--------------------------------------------------------------
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  var wid = document.getElementById('main-content').offsetWidth;
+  var hig = document.getElementById('main-content').offsetHeight;
+  resizeCanvas(wid, hig);
 }
 //--------------------------------------------------------------
 function draw() {
