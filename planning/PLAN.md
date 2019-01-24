@@ -1,14 +1,12 @@
-1. All the actiivities, Khanacademy Units, and assignments you've done in class
+1. blog posts for ~10+ learning experiences in Com Sci, ex. Microbit, Algorithms, Natural Simulations, etc. (with examples)
 
-2. All the languages you've learnt and used in and out of class. Add links to your GitHub Repos
+2. All the actiivities, Khanacademy Units, and assignments you've done in class
 
-3. Embedded code you have completed (Projects and Assignments). 
+3. All the languages you've learnt and used in and out of class. Add links to your GitHub Repos
 
-4. blog posts for ~10+ learning experiences in Com Sci, ex. Microbit, Algorithms, Natural Simulations, etc. (with examples)
+4. Future plans, specific or general.
 
-5. Future plans, specific or general.
-
-
+5. Embedded code you have completed (Projects and Assignments). 
 
 
 https://www.khanacademy.org/profile/nooshi34/projects
