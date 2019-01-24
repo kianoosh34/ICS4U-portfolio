@@ -3,6 +3,9 @@ body {
 }
 #title {
 	text-align: center;
+	font-size: 3em;
+ 	margin-top: 0.4em;
+	margin-top: 0.4em;
 	font-weight: bold;
 }
 #top-bar {
