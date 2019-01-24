@@ -1,18 +1,18 @@
 currentTab = window.location.pathname;
 linkEl = document.querySelector("#bar-link1");
-if (currentTab === '') {
+if (currentTab === '/ICS4U-portfolio/') {
 	linkEl = document.querySelector("#bar-link1");
 }
-if (currentTab === '') {
+else if (currentTab === '') {
 	linkEl = document.querySelector("#bar-link2");
 }
-if (currentTab === '') {
+else if (currentTab === '') {
 	linkEl = document.querySelector("#bar-link3");
 }
-if (currentTab === '') {
+else if (currentTab === '') {
 	linkEl = document.querySelector("#bar-link4");
 }
-if (currentTab === '') {
+else if (currentTab === '') {
 	linkEl = document.querySelector("#bar-link5");
 }
 linkEl.style.backgroundColor = '#f5f5f5';
