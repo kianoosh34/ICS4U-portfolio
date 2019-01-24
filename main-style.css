@@ -1,5 +1,9 @@
+body {
+	font-family: "Calibri", Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
 #title {
 	text-align: center;
+	font-weight: bold;
 }
 #top-bar {
 	margin: auto;
