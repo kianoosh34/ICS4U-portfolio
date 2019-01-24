@@ -7,6 +7,5 @@ s.src = "https://kianoosh34.github.io/ICS4U-portfolio/scripts/" + scriptname + "
 s.innerHTML = '';
 s.id = 'player';
 var the_content = document.getElementsByClassName('main-content')[0];
-the_content.innerHTML = scriptname + "<br>";
 the_content.style = "justify-content: center;";
 the_content.appendChild(s);
