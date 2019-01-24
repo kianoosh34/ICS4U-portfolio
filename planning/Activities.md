@@ -1,5 +1,7 @@
 # Activities Completed
 
+-Microbit (Incomplete)
+
 ## Github
 
 - Github Learning Lab
