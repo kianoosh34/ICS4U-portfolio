@@ -24,9 +24,9 @@ body {
 	vertical-align: middle;
 	background-color: #f5f5f5;
 }
-td a {
-      	color: inherit; 
-  	text-decoration: inherit;
+#bar-link {
+      	color: black; 
+  	text-decoration: none;
  }
 .main-content {
 	margin: auto;
