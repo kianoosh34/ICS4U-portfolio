@@ -1,7 +1,7 @@
 //making shapes easier to draw
 function setup() {
     var canvas = createCanvas(400,400);
-    canvas.parent('main-content');
+    //canvas.parent('main-content');
     textAlign(CENTER,CENTER);
     rectMode(CENTER);
     textFont('monospace');
