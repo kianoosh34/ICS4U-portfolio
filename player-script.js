@@ -6,5 +6,5 @@ s.type = "text/javascript";
 s.src = "https://kianoosh34.github.io/ICS4U-portfolio/scripts/" + scriptname + ".js";
 s.innerHTML = '';
 s.id = 'player';
-var the_content = document.getElementsByClassName('main-content')[0];
+var the_content = document.getElementById('main-content');
 the_content.appendChild(s);
