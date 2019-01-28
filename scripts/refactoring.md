@@ -14,3 +14,12 @@
   var hig = document.getElementById('main-content').offsetHeight;
   var canvas = createCanvas(wid, hig);
   canvas.parent('main-content');
+```
+
+```
+function windowResized() {
+  var wid = document.getElementById('main-content').offsetWidth;
+  var hig = document.getElementById('main-content').offsetHeight;
+  resizeCanvas(wid, hig);
+}
+```
