@@ -19,8 +19,41 @@
 	<script src="css-script.js"></script>
 	<br>
 	<div class='main-content'>
-		<h2>Sorry, the best part of the site isn't open right now.</h2>
-		<img src="https://c7.alamy.com/comp/EHJC8N/dog-under-construction-EHJC8N.jpg" width="100%">
+	<form id="script-form">
+		<label>
+		Which program?
+			<select name="program">
+				<option value="8ball">Magic 8 Ball</option>
+				<option value="animal">Animal Drawing</option>
+				<option value="asteroids">Asteroids Game</option>
+				<option value="dinner">Dinner Drawing</option>
+				<option value="dog">Dog Drawing</option>
+				<option value="fish">Fish Drawing</option>
+				<option value="house">House Drawing</option>
+				<option value="mandelbrot">Mandelbrot Set</option>
+				<option value="mountain">Mountain Landscape</option>
+				<option value="oscillator-creatures">Oscillator Creatures</option>
+				<option value="portrait">Portrait Drawing</option>
+				<option value="rain">Rain</option>
+				<option value="recursive_art">Recursive Art</option>
+				<option value="selectionsort">Selection Sort Visualizer</option>
+				<option value="shelf">Shelf Drawing</option>
+				<option value="sin">Sine Graph Drawing</option>
+				<option value="snowman">Snowman Drawing</option>
+				<option value="space_invaders">Space Invaders Game</option>
+				<option value="text">Text?</option>
+			</select>
+		</label>
+		<button type="submit">Open</button>
+	</form>
+		<script>
+			$("#script-form").on("submit", function(event) {
+				event.preventDefault();
+				var $programID = $(this).find("[name=program]");
+				var programID = $programID.val();
+				var link = "https://kianoosh34.github.io/ICS4U-portfolio/player.html?script=" + programID;
+				document.location.assign(link);
+		</script>
 	</div>
 </body>
 </html>
