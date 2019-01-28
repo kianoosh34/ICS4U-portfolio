@@ -30,7 +30,7 @@
 
 - Intro to HTML/CSS: Making webpages (100%)
 
-- Intro to SQL: Querying and managing data (SQL basics only)
+- Intro to SQL: Querying and managing data (Partial)
 
 - Advanced JS: Natural Simulations (100%)
 
