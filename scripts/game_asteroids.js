@@ -273,7 +273,10 @@ var asteroids = [];
 var lasers = [];
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+	var wid = document.getElementById('main-content').offsetWidth;
+	var hig = document.getElementById('main-content').offsetHeight;
+	var canvas = createCanvas(wid, hig);
+	canvas.parent('main-content');
     frameRate(60);
     ship = new Ship();
     textSize(26);
@@ -282,6 +285,11 @@ function setup() {
     for (var i = 0; i < 5; i++) {
         asteroids.push(new Asteroid());
     }
+}
+function windowResized() {
+  var wid = document.getElementById('main-content').offsetWidth;
+  var hig = document.getElementById('main-content').offsetHeight;
+  resizeCanvas(wid, hig);
 }
 
 function draw() {
