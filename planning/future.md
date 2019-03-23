@@ -1,3 +1,0 @@
-# Future Plans
-
-GAME DEVELOPMENT!
